@@ -18,3 +18,4 @@
 Callback URL><code>https://938b1d15.ngrok.io/facebook-bot</code> (url created by ngrok)<br/>
 Verify Token><code>facebook_messanger_api</code> (value of FACEBOOK_MESSANGER_WEBHOOK_TOKEN of env)</li>
 <li>Add Subscriptions> select subscription fields</li>
+<p>Now, go to your inbox and send message to this new page. You send either 'Hi' or 'Hello'</p>
