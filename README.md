@@ -28,8 +28,7 @@ Verify Token><code>facebook_messanger_api</code> (value of FACEBOOK_MESSANGER_WE
 <li>Select Settings from the menu bar</li>
 <li>From the left column, select Messenger Platform</li>
 <li>Scroll to the Customer Chat Plugin section and hit “Set up”</li>
-<li>Follow the Facebook prompts to:</li>
-<li>
+<li>Follow the Facebook prompts to:
 <ul>
 <li>Customize your greeting</li>
 <li>Set your response time (give this some thought so you are setting the right expectation with your viewer.)</li>
