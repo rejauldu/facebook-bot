@@ -4,7 +4,7 @@
 <li>Create two routes with the same names but different methods (ie. facebook-bot)</li>
 <li>Crate BotController as like this project</li>
 <li>Create BotMiddleware</li>
-<li>Edit <code>app\Http\Kernel.php>Add</code> <code>'bot' => \App\Http\Middleware\BotMiddleware::class</code> in routeMiddleware</li>
+<li>Edit <code>app\Http\Kernel.php</code> >Add <code>'bot' => \App\Http\Middleware\BotMiddleware::class</code> in routeMiddleware</li>
 <li>Edit <code>app\Http\Middleware\VerifyCsrfToken.php</code> > Add <code>'/facebook-bot'</code> into <code>$except[]</code></li>
 <li>htdocs><code>npm install ngrok -g</code></li>
 <li><code>ngrok authtoken 1Wnqn1PNPuWJj2iqxzl8sbEanKF_2hykXvSPPRQdkxrTtmXJg</code></li>
