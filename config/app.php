@@ -227,5 +227,5 @@ return [
         'View' => Illuminate\Support\Facades\View::class,
 
     ],
-
+	'FACEBOOK_MESSANGER_WEBHOOK_TOKEN' => env('FACEBOOK_MESSANGER_WEBHOOK_TOKEN', ''),
 ];

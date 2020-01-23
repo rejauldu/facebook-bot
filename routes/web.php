@@ -10,7 +10,8 @@
 | contains the "web" middleware group. Now create something great!
 |
 */
-
+Route::get('facebook-bot', 'BotController@index')->middleware("bot");;
+Route::post('facebook-bot', 'BotController@index');
 Route::get('/', function () {
     return view('welcome');
 });
